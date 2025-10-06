@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: signalbot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python3 bot.py"
